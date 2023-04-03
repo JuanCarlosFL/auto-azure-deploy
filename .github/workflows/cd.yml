@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: ghcr.io/JuanCarlosFL/auto-azure-deploy:${{ github.run_number }}-${{ github.run_attempt }}
+  IMAGE_NAME: ghcr.io/juancarlosfl/auto-azure-deploy:${{ github.run_number }}-${{ github.run_attempt }}
 
 permissions:
   contents: "read"
